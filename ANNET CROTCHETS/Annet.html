@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Annet Crochets</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* Custom styles for Annet Crochets */
+    body {
+      background-color: #31d3e9; /* Blue background */
+    }
+
+    .navbar {
+      background-color: #ffffff;
+    }
+
+    .hero-section {
+      background-image: url('3.jpg'); /* Replace with your hero image */
+      background-size: cover;
+      background-position: center;
+      padding: 100px 20px;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      position: relative;
+    }
+
+    .hero-section h1 {
+      font-size: 3rem;
+    }
+
+    /* Valentine's edition box */
+    .valentine-box {
+      background-color: rgb(26, 138, 26);
+      color: #ffffff;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      width: 15%;
+      font-weight: bold;
+      box-shadow: 0 20px 29px rgba(0, 0, 0, 0.822);
+    }
+    .valentine-box a{
+      font-size:25px;
+      color:#ffffff;
+    }
+
+    .product-card img {
+      max-height: 150px;
+      object-fit: cover;
+    }
+
+    .footer {
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      padding: 20px 0;
+    }
+
+    /* Logo font (handwritten style) */
+    .navbar-brand {
+      font-family: 'Dancing Script', cursive;
+      font-weight: 700; /* Adjust weight: 400 (normal), 700 (bold) */
+      font-size: 1.8rem;
+    }
+
+    /* Navigation and body text (modern sans-serif) */
+    body, .navbar-nav .nav-link, .card-title {
+      font-family: 'Poppins', sans-serif;
+      color:black;
+    }
+
+    /* Moving text (Marquee) */
+    .moving-text {
+      background-color: rgb(240, 128, 171);
+      padding: 10px;
+      color: rgb(255, 255, 255);
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Annet Crochets</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+<section class="hero-section">
+  <div class="hero-content">
+    <h1>Beautiful Handcrafted Crochets</h1>
+    <p>Discover unique designs and patterns made with love and creativity.</p>
+  </div>
+  <!-- Valentine's edition message -->
+  <div class="valentine-box">
+   
+    
+      <a href=""><i class="fa fa-whatsapp" > Whatsapp </i></a>
+      <br>
+        +254 727 926 273
+      
+    
+  </div>
+</section>
+
+
+  <!-- Moving Text Section -->
+  <div class="moving-text">
+    <marquee behavior="scroll" direction="left">Welcome to Annet Crochets! Explore our unique handcrafted collections!</marquee>
+  </div>
+
+  <!-- Products Section -->
+  <section id="products" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Products</h2>
+      <div class="row g-3"> <!-- Added gutter spacing -->
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="4.jpg" class="card-img-top" alt="Product 1">
+            <div class="card-body">
+              <h5 class="card-title">Crochet Hat</h5>
+              <p class="card-text">$25.00</p>
+              <a href="#" class="btn btn-secondary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="5.jpg" class="card-img-top" alt="Product 2">
+            <div class="card-body">
+              <h5 class="card-title">Crochet Blanket</h5>
+              <p class="card-text">$45.00</p>
+              <a href="#" class="btn btn-secondary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="6.jpg" class="card-img-top" alt="Product 3">
+            <div class="card-body">
+              <h5 class="card-title">Crochet Sweater</h5>
+              <p class="card-text">$35.00</p>
+              <a href="#" class="btn btn-secondary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card">
+            <img src="7.jpg" class="card-img-top" alt="Product 4">
+            <div class="card-body">
+              <h5 class="card-title">Crochet Shrug</h5>
+              <p class="card-text">$25.00</p>
+              <a href="#" class="btn btn-secondary">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more products here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p>&copy; 2025 Annet Crochets. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
